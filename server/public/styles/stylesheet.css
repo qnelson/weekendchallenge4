@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cabin', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
   background-color: rgba(59,65,74,1.0);
   color: #212121;
 }
@@ -58,10 +58,6 @@ display: block;
 .delete, .complete {
   width: 100%;
 
-}
-
-button.delete {
-  !opacity: 1.0;
 }
 
 #submit {
