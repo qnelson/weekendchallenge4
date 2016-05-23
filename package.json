@@ -1,0 +1,26 @@
+{
+  "name": "weekendchallenge4",
+  "version": "1.0.0",
+  "description": "Express/Node To-Do App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qnelson/weekendchallenge4.git"
+  },
+  "author": "Quinn Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qnelson/weekendchallenge4/issues"
+  },
+  "homepage": "https://github.com/qnelson/weekendchallenge4#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jquery": "^2.2.4",
+    "pg": "^4.5.5"
+  }
+}

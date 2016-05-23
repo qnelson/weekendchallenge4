@@ -1,0 +1,11 @@
+CREATE TABLE notes (
+    id SERIAL PRIMARY KEY,
+    note_title character varying(255),
+    note_text text,
+    note_status boolean
+);
+
+
+
+  ALTER TABLE notes
+    ALTER COLUMN note_status SET DEFAULT FALSE;
