@@ -73,6 +73,8 @@ function noteId(button) {
 
 //Delete functionality
 function deleteNote(event) {
+var confirmation = confirm('Are you sure you want to delete?')
+  if(confirmation) {
 event.preventDefault;
   var noteId = $(this).parent().parent().data('noteID');
   $.ajax({
@@ -83,9 +85,12 @@ event.preventDefault;
     },
   });
 }
+}
 
 //Toggles CSS class for task complete, updates database with new status
 function toggleComplete () {
+  var confirmation = confirm('Are you sure you want to archive?')
+    if(confirmation) {
   event.preventDefault();
   $(this).parent().parent().removeClass('toggleincomplete');
   $(this).parent().parent().addClass('togglecomplete');
@@ -101,5 +106,5 @@ function toggleComplete () {
       getNotes();
     }
   });
-
+}
 }
