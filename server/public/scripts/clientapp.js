@@ -25,13 +25,13 @@ function getNotes() {
 
         //If task is complete, the class togglecomplete is applied
         $container = $('<div class="togglecomplete"></div>');
-        $container.append("<p>" + note.note_title + '<br>' + '</br>' + '<button class="delete">Delete Note</button>'
+        $container.append("<p class='bold'>" + note.note_title + '<br>' + '</br>' + '<button class="delete">Delete Note</button>'
         + "</p>" + "<p>" + note.note_text + "</p>");
 
         //If task is not complete, the class toggleincomplete is applied
       } else {
         $container = $('<div class="toggleincomplete"></div>');
-        $container.append("<p>" + note.note_title + '<br>' + '</br>' + '<button class="delete">Delete Note</button>' +
+        $container.append("<p class='bold'>" + note.note_title + '<br>' + '</br>' + '<button class="delete">Delete Note</button>' +
         '<button class="complete">Archive Note</button>' + "</p>" + "<p>" + note.note_text + "</p>");
       }
 

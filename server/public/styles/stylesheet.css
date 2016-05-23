@@ -70,3 +70,9 @@ h1 {
   text-indent: 108px;
   color: rgba(176,196,222,1.0)
 }
+
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
