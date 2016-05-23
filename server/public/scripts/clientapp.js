@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
   //Gets notes from database upon page load
@@ -10,6 +11,7 @@ $(document).ready(function () {
 });
 
 function getNotes() {
+  $('#todoList').empty();
   $.ajax({
     type: 'GET',
     url: '/notes',
