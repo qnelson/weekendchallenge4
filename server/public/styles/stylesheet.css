@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', 'sans-serif';
   background-color: rgba(59,65,74,1.0);
-  color: #212121;
+  color: #333;
 }
 
 .toggleincomplete {
@@ -31,6 +31,7 @@ body {
 
 #title, #todo {
 display: block;
+color: #333;
 
 }
 
